@@ -1,0 +1,12 @@
+git status
+
+git remote -vv
+git remote add upstream https://github.com/takyo41/sql_work_shop_TP.git
+
+git add modelisation
+git commit -a -m "Modelisation"
+
+git config --global user.name "takyo41"
+git config --global user.mail "hugobray41@gmail.com"
+
+git push upstream main
